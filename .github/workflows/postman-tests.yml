@@ -17,4 +17,4 @@ jobs:
         run: npm install -g newman
 
       - name: Run Postman Tests
-        run: newman run jsonplaceholder_collection.json
+        run: newman run "JSONPlaceholder Tests.postman_collection.json"
